@@ -1,0 +1,86 @@
+.section1-about{
+    background-image: url(img/banner.png);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 350px;
+    color: white;
+    text-align: center;
+    padding: 120px 150px;
+    font-family: "League Spartan", sans-serif;
+    margin-top: 10vh;
+
+}
+navbar{
+    min-width: 500px;
+}
+.section1-about content{
+    min-width: 450px;
+}
+.section1-about h2{
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.section1-about p{
+    color: #fff;
+    font-size: 45px;
+    font-family: "League Spartan", sans-serif;
+
+
+
+}
+.text h2{
+    font-size: 30px;
+}
+@media(max-width:960px){
+    .section1-about{
+    padding: 80px 100px;
+
+    }
+    .content{
+        width: 100%;
+    }
+}
+@media(max-width:855px){
+    .section1-about{
+        padding: 100px 0px;
+        min-height: 300px;
+    }
+    .section1-about p{
+        font-size: 35px;
+    }
+}
+@media(max-width:515px){
+    .section1-about{
+        min-width: 512px;
+        padding: 100px 00px;
+        padding-right: 30px;
+        min-height: 300px;
+    }
+    .section1-about p{
+        font-size: 30px;
+    }
+
+}
+.video-section{
+    width: 100%;
+
+    margin: auto;
+    padding: 20px 20px;
+    min-width: 500px;
+}
+.video-section h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.video-section video{
+    width: 80%;
+    height: 90%;
+    min-height: 250px;
+    margin-left: 10%;
+    
+
+}
